@@ -1,0 +1,24 @@
+<div class="card">
+    <!-- ပထမမြင်ရမယ့် လက်ဆောင်ဘူးပုံစံ -->
+    <div id="intro-box">
+        <div style="font-size: 55px; margin-bottom: 10px;">🎁</div>
+        <h1>မွေးနေ့လက်ဆောင်လေး</h1>
+        <p>မင်းအတွက် အထူးပြင်ဆင်ထားတဲ့ လက်ဆောင်လေးကို ဖွင့်ကြည့်လိုက်ပါဦး...</p>
+        <button class="btn" onclick="openGift()">ဖွင့်ကြည့်မယ် ❤️</button>
+    </div>
+
+    <!-- ဖွင့်ကြည့်လိုက်မှ ပေါ်လာမယ့် ဓာတ်ပုံနဲ့ ဆုတောင်းစာ -->
+    <div id="wish-box">
+        <!-- ဓာတ်ပုံဖိုင် (GitHub ထဲမှာ photo.jpg လို တင်ပေးရပါမယ်) -->
+        <img src="photo.jpg" alt="Birthday Photo" class="photo">
+        <h1>🎉 Happy Birthday ပါ 🎂</h1>
+        <p>မွေးနေ့မှစပြီး နောင်နှစ်ပေါင်းများစွာတိုင်အောင် ပျော်ရွှင်ချမ်းမြေ့ပြီး လိုအင်ဆန္ဒတွေ အားလုံး ပြည့်ဝပါစေလို ဆုတောင်းပေးလိုက်ပါတယ်နော် ❤️✨</p>
+    </div>
+</div>
+
+<script>
+    function openGift() {
+        document.getElementById('intro-box').style.display = 'none';
+        document.getElementById('wish-box').style.display = 'block';
+    }
+</script>
